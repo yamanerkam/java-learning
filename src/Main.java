@@ -23,7 +23,7 @@ public class Main {
         MyClass classOne = new MyClass();
         System.out.println(classOne.x); */
 
-        String Kam = new String("Erkam Yaman");
+       /* String Kam = new String("Erkam Yaman");
         System.out.println(Kam);
         System.out.println(Kam.length());
         System.out.println(Kam.indexOf('k'));
@@ -54,7 +54,13 @@ public class Main {
 
         // Split
         String[] parts = trimmed.split(", ");
-        System.out.println("Split: " + java.util.Arrays.toString(parts));
+        System.out.println("Split: " + java.util.Arrays.toString(parts));*/
+        // backlash
+        System.out.println("C:\\Program Files\\Java");
+
+        // new line
+        System.out.println("Hello\nWorld!");
+
     }
 }
 
