@@ -55,11 +55,29 @@ public class Main {
         // Split
         String[] parts = trimmed.split(", ");
         System.out.println("Split: " + java.util.Arrays.toString(parts));*/
-        // backlash
+        /*// backlash
         System.out.println("C:\\Program Files\\Java");
 
         // new line
-        System.out.println("Hello\nWorld!");
+        System.out.println("Hello\nWorld!");*/
+
+        /*int[] intArray;
+        String[] stringArray;
+
+        intArray = new int[5];
+        stringArray = new String[10];
+
+        int[] intArrayNew = {1, 2, 3, 4, 5};
+        String[] stringArrayNew = {"Hello", "World"};*/
+
+        final float PI = 3.14F;
+
+        Person person1 = new Person();
+        Person person2 = new Person();
+
+        System.out.println(person1.name);
+        System.out.println(person2.age);
+
 
     }
 }
