@@ -77,6 +77,11 @@ public class Main {
 
         System.out.println(person1.name);
         System.out.println(person2.age);
+        System.out.println(person1.nationality);
+        person1.name="kseniia";
+        System.out.println(person1.name);
+        System.out.println(person1.nationality);
+
 
 
     }
