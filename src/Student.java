@@ -1,9 +1,9 @@
 public class Student {
 
-    String name;
-    int grade;
-    float gpa;
-    int age;
+   private String name;
+   private int grade;
+   private float gpa;
+   private int age;
 
     public Student(String name, int grade, float gpa,int age) {
         this.name = name;
