@@ -1,6 +1,20 @@
 public class Main {
     public static void main(String[] args) {
 
+        Student student1 = new Student("kam",5,2.2f,24);
+        Student student2 = new Student("kseniia",3,2.9f,26);
+        student1.setName("erkam yaman");
+        System.out.println(student1.getName());
+
+
+
+
+
+
+
+
+
+
     /*    System.out.println("Hello");
         int money = 20;
         money = 40;
@@ -22,7 +36,6 @@ public class Main {
 
         MyClass classOne = new MyClass();
         System.out.println(classOne.x); */
-
        /* String Kam = new String("Erkam Yaman");
         System.out.println(Kam);
         System.out.println(Kam.length());
@@ -60,7 +73,6 @@ public class Main {
 
         // new line
         System.out.println("Hello\nWorld!");*/
-
         /*int[] intArray;
         String[] stringArray;
 
@@ -69,8 +81,7 @@ public class Main {
 
         int[] intArrayNew = {1, 2, 3, 4, 5};
         String[] stringArrayNew = {"Hello", "World"};*/
-
-        final float PI = 3.14F;
+     /*   final float PI = 3.14F;
 
         Person person1 = new Person();
         Person person2 = new Person();
@@ -82,11 +93,7 @@ public class Main {
         System.out.println(person1.name);
         System.out.println(person1.nationality);
         person1.myPublicMethod();
-        Person.myStaticMethod();
+        Person.myStaticMethod();*/
         }
 }
 
-class MyClass {
-    int x = 10;
-
-}
