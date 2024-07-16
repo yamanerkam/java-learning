@@ -1,16 +1,28 @@
 public class Person {
-    String name = "kam";
-    int age = 5;
-    final String nationality = "Turkish";
-    public  static  void myMethod(){
-        System.out.println("my method is working ");
-    }
-    static void myStaticMethod() {
-        System.out.println("Static methods can be called without creating objects");
+   private String name;
+   private int age;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
-    // Public method
-    public void myPublicMethod() {
-        System.out.println("Public methods must be called by creating objects");
+    public void introduce(){
+        System.out.println("Hi, my name is " + name + " and I am " + age + " years old.");
+    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
