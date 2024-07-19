@@ -1,15 +1,18 @@
 public class Main {
     public static void main(String[] args) {
 
-      /*  Student student1 = new Student("kam",5,2.2f,24);
+       Student student1 = new Student("kam",5,2.2f,24);
         Student student2 = new Student("kseniia",3,2.9f,26);
         student1.setName("erkam yaman");
-        System.out.println(student1.getName());*/
+        System.out.println(student1.getName());
 
         Person person1 = new Person("Kseniia",26);
         Person person2 = new Programmer("Kam",24,"Javascript",1);
         person2.introduce();
         person1.introduce();
+
+        Teacher teacher = new Teacher("JASON");
+        teacher.assignHomework(student1);
 
 
 
