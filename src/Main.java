@@ -14,6 +14,10 @@ public class Main {
         Teacher teacher = new Teacher("JASON");
         teacher.assignHomework(student1);
 
+        Sum sum = new Sum();
+     System.out.println(sum.sum(1,2));
+     System.out.println(sum.sum(1,3,4));
+
 
 
 
