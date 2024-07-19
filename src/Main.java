@@ -17,7 +17,10 @@ public class Main {
         Sum sum = new Sum();
      System.out.println(sum.sum(1,2));
      System.out.println(sum.sum(1,3,4));
-
+Animal animal = new Animal();
+Cat cat = new Cat();
+cat.makeSound();
+animal.makeSound();
 
 
 
