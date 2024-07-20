@@ -1,2 +1,2 @@
-public class FarmerCreditManager {
+public class FarmerCreditManager extends BaseCreditManager {
 }

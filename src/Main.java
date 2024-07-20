@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
+/*
        Student student1 = new Student("kam",5,2.2f,24);
         Student student2 = new Student("kseniia",3,2.9f,26);
         student1.setName("erkam yaman");
@@ -22,9 +22,11 @@ Cat cat = new Cat();
 cat.makeSound();
 animal.makeSound();
 
+*/
 
 
-
+     TeacherCreditManager teacherLoan = new TeacherCreditManager();
+     teacherLoan.calculateLoan();
 
 
 
