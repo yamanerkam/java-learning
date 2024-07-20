@@ -25,8 +25,10 @@ animal.makeSound();
 */
 
 
-     TeacherCreditManager teacherLoan = new TeacherCreditManager();
+     BaseCreditManager teacherLoan = new BaseCreditManager();
      teacherLoan.calculateLoan();
+     LoanUI loanUI = new LoanUI();
+     loanUI.creditCalc(teacherLoan);
 
 
 
