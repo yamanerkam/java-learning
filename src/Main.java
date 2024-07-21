@@ -24,13 +24,19 @@ animal.makeSound();
 
 */
 
-
-     BaseCreditManager teacherLoan = new BaseCreditManager();
+/*
+     TeacherCreditManager teacherLoan = new TeacherCreditManager();
      teacherLoan.calculateLoan();
      LoanUI loanUI = new LoanUI();
      loanUI.creditCalc(teacherLoan);
+*/
 
-
+        BaseLogger bl = new BaseLogger();
+        bl.Logger("hello");
+        DatabaseLogger  dl = new DatabaseLogger();
+        dl.Logger("hey");
+        EmailLogger el = new EmailLogger();
+        el.Logger("sent");
 
 
 
