@@ -41,9 +41,12 @@ animal.makeSound();
         BaseLogger[] loggers = new BaseLogger[]{new EmailLogger(),new DatabaseLogger(),new FileLogger()};
 for (BaseLogger log:loggers){
     log.Logger("logging");
+
+
 }
 
-
+        CustomerManager cm = new CustomerManager(dl);
+        cm.add();
 
     /*    System.out.println("Hello");
         int money = 20;
