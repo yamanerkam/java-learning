@@ -37,7 +37,11 @@ animal.makeSound();
         dl.Logger("hey");
         EmailLogger el = new EmailLogger();
         el.Logger("sent");
-
+        System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+        BaseLogger[] loggers = new BaseLogger[]{new EmailLogger(),new DatabaseLogger(),new FileLogger()};
+for (BaseLogger log:loggers){
+    log.Logger("logging");
+}
 
 
 
