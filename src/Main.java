@@ -1,5 +1,27 @@
 public class Main {
     public static void main(String[] args) {
+
+        ITworker admin = new Admin("Noel","noelgal@gmail.com");
+        ITworker developer = new Developer("KAM","kam@gmail.com","java");
+        ITworker tester = new Tester("Dave","dave123@gmail.com");
+
+        admin.login();
+        admin.performDuties();
+
+        developer.login();
+        developer.performDuties();
+
+        tester.login();
+        tester.performDuties();
+
+        admin.logout();
+        developer.logout();
+        tester.logout();
+
+
+
+
+
 /*
        Student student1 = new Student("kam",5,2.2f,24);
         Student student2 = new Student("kseniia",3,2.9f,26);
@@ -30,7 +52,7 @@ animal.makeSound();
      LoanUI loanUI = new LoanUI();
      loanUI.creditCalc(teacherLoan);
 */
-
+/*
         BaseLogger bl = new BaseLogger();
         bl.Logger("hello");
         DatabaseLogger  dl = new DatabaseLogger();
@@ -47,6 +69,7 @@ for (BaseLogger log:loggers){
 
         CustomerManager cm = new CustomerManager(dl);
         cm.add();
+*/
 
     /*    System.out.println("Hello");
         int money = 20;
