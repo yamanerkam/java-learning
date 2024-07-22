@@ -18,6 +18,15 @@ public class Main {
         developer.logout();
         tester.logout();
 
+        System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+
+        PaymentProcessor paymentProcessor = new PayPalProcessor();
+        PaymentService paymentService = new PaymentService(paymentProcessor);
+        paymentService.makePayment(400.0);
+        paymentService.makeRefund(30.2);
+
+
+
 
 
 
