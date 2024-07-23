@@ -30,8 +30,17 @@ public class Main {
         CustomerManagerSql customerManagerSql = new CustomerManagerSql(new OracleDal());
         customerManagerSql.Add();
 
+        System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
 
+        Worker worker = new Worker();
+        worker.Eat();
+        worker.Work();
 
+        OutSourceWorker outSourceWorker = new OutSourceWorker();
+        outSourceWorker.Work();
+
+        RobotWorker robotWorker = new RobotWorker();
+        robotWorker.Work();
 
 
 /*
