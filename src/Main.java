@@ -25,7 +25,10 @@ public class Main {
         paymentService.makePayment(400.0);
         paymentService.makeRefund(30.2);
 
+        System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
 
+        CustomerManagerSql customerManagerSql = new CustomerManagerSql(new OracleDal());
+        customerManagerSql.Add();
 
 
 
